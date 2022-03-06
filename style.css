@@ -1,0 +1,92 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+/* bg image*/
+body{
+
+  height: 900px;
+  background-color: black;
+
+}
+
+/* header paralax image image*/
+header {
+  background: url('bg.jpg');
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;  /* paralax effect*/
+  position: relative;
+  
+  border-radius: 0 0 85% 85% / 30%;
+}
+
+/* header text*/
+header .all{
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  color:  black;
+}
+
+/* header image text*/
+h1 {
+  
+  font-size: 70px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+
+pre{
+  font-size:  15px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+section{
+
+background: black;
+background-size: cover; 
+width: 100%;
+height: 650px; 
+position: relative; 
+overflow: hidden;
+}
+
+.scare
+{
+ background: url(bg2.png);
+ background-repeat: repeat; 
+ width: 100%; 
+ height: 650px; 
+ position: absolute; 
+ top: 0; 
+ Left: 0; 
+ animation: animateOne 10s infinite linear;
+
+}
+
+@keyframes animateOne
+{
+  0%
+  {
+   background-position: 0px 0px;
+  }
+  100%
+  {
+    background-position: 100px 650px;
+  }
+}
