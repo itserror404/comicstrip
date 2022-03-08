@@ -1,5 +1,5 @@
 # Comix Strip
-### Group Members: Moyo, Bhavica, Maimuna, Rhea
+### Group Members: Moyo, Bhavicka, Maimuna, Rhea
 ## Project Name: 
 
 ## Project Description: what is the project, what is the overall concept and theme, and what kind of experience you were striving to create.
@@ -13,7 +13,7 @@
 ### Brainstorming
 We began by meeting together and coming up with potential ideas. We consulted previous websites, threw out various suggestions, until we reached an idea that we like, ghosts. After that, we came up with an outline of how the comic would proceed, describing each panel. And then we decided upon the jobs that each of us would do
 - Rhea and Maimuna : Working on Website Code (CSS, HTML and JavaScript)
-- Moyo and Bhavia: Designing Panels and Graphics
+- Moyo and Bhavicka: Designing Panels and Graphics
 
 ### Website
 Maimuna's explanation for the template;
