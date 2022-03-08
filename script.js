@@ -35,7 +35,7 @@ function isScrolledIntoView($elem, $window) {
 // Begin animation section after the viewer reaches that section of the comic
 $(document).on("scroll", function () {
     if (isScrolledIntoView($elem, $window)) {
-        conole.log("check");
+        console.log("check");
       $("#layer4").addClass("boo");
       $("#layer3").addClass("boo");
       $("#layer2").addClass("boo");
