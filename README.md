@@ -1,19 +1,27 @@
 # Comix Strip
 ### Group Members: Moyo, Bhavicka, Maimuna, Rhea
-## Project Name: 
+## Project Name: Just Moved In
 
-## Project Description: what is the project, what is the overall concept and theme, and what kind of experience you were striving to create.
+## Project Description: 
 ### What is it?
-### Overall Concept
-### Theme
+Our comic strives to put a twist on classic ghost stories by having two wildly different but unexpected endings.
+### Overall Concept and Theme
+Our main concept is that there is a guy who has, as the title suggests, "Just Moved In" to a house he got for surprisingly cheap. Soon we find out the reason for this. As in so many horror stories, there is a ghost living in the cheap old house, surprise surprise! But this ghost's intentions are not what you would usually expect, and we aim to take the viewer on a fun journey (two if they so choose, and we would highly recommend that) through the protagonist's (expectedly dumb) choices.
 ### Desired Experience
-
+This is a comic with horror themes but it is also meant to be funny, and we tried to have a balance of that within our website and comic. This is also a choose your own adventure type of story, and we hope people will enjoy this interactivity and the different endings!
 ## Process: How did you go about implementing the concept. Describe your role and what your contribution was.
 
 ### Brainstorming
 We began by meeting together and coming up with potential ideas. We consulted previous websites, threw out various suggestions, until we reached an idea that we like, ghosts. After that, we came up with an outline of how the comic would proceed, describing each panel. And then we decided upon the jobs that each of us would do
 - Rhea and Maimuna : Working on Website Code (CSS, HTML and JavaScript)
 - Moyo and Bhavicka: Designing Panels and Graphics
+
+### Comic
+#### Moyo
+#### Bhavicka
+Using the wireframe Moyo had given as a guideline, I started off with editing and choosing from the background options I had been given. Finding the right app for this style of drawing was the hardest part- I cycled through many like Illustrator, Vectornator, Adobe Fresco and even my Notes app. Finally, I found that a combination of Canva on my laptop and Ibis Paint X on the iPad worked well for my purpose. 
+
+I had to shorten some dialogue and rearrange some panels but the wireframe was a very helpful reference point. For the animated parts, I drew the same frame multiple times with the to-be-animated object moved to different positions. I knew trying to make good consistent art wouldn't be my strong suit, so I just went for stick figures because hey, it's okay if stick figures look crappy. One thing I really wanted was for the ghost to look cute after the initial reveal that it is not actually scary, I hope I managed to achieve some semblance of that. 
 
 ### Website
 Maimuna's explanation for the template;
