@@ -32,14 +32,23 @@ header .all{
 /* header image text*/
 h1 {
 
-  font-size: 70px;
-  margin-bottom: 20px;
+  font-size: 100px;
+  font-weight: 100;
+
   color: white;
+  font-family: 'Creepster', cursive;
+  text-align: center;
+  margin: 0;
+s
+  width: 100%;
+  height: 300px;
+  opacity: 1;
+
+
 }
 
-
 pre{
-  font-size:  15px;
+  height: 100px;
 }
 
 img {
@@ -161,5 +170,49 @@ button{
 }
 
 .lightsout{
-  background-color: grey;
+  background-image:  url(images/torch.gif);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: 2000px 1000px;
 }
+
+.arrow {
+    
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: -500px;
+            position: absolute;
+
+        }
+        
+        .arrow span {
+            display: block;
+            width: 30px;
+            height: 30px;
+            border-bottom: 5px solid white;
+            border-right: 5px solid white;
+            transform: rotate(45deg);
+            margin: -15px;
+            animation: scroll1 2s infinite;
+        }
+        .arrow span:nth-child(2) {
+            animation-delay: -.2s;
+        }
+        .arrow span:nth-child(3) {
+            animation-delay: -.4s;
+        }
+        @keyframes scroll1 {
+            0% {
+                opacity: 0;
+                transform: rotate(45deg) translate(-20px, -20px);
+            }
+            50% {
+                opacity: 1;
+               
+            }
+            100% {
+                opacity: 0;
+                transform: rotate(45deg) translate(-20px, -20px);
+            }
+        }

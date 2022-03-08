@@ -47,3 +47,7 @@ $(document).on("scroll", function () {
       $("#layer1").removeClass("boo");
     }
 });
+
+$(window).scroll(function(){
+    $("h1").css("opacity", 1 - $(window).scrollTop() / 250);
+  });
