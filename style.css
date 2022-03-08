@@ -127,14 +127,15 @@ button{
 
 .ghost{
   position: relative;
-  left: 25%;
   top: 25%;
-  background-color: gray;
-  background-color: black;
 }
 
 .layer{
   position: absolute;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 25%;
 }
 
 .layer.boo{
@@ -161,7 +162,7 @@ button{
 .ghost img:nth-of-type(4){
   animation-delay: 0s;
 }
-@keyframes boo {
+@keyframes animate {
   0%   {opacity: 1;}
   17%  {opacity: 1;}
   25%  {opacity: 0;}
@@ -179,14 +180,12 @@ button{
 
 
 .arrow {
-    
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            height: -500px;
-            position: absolute;
-
-        }
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: -500px;
+  position: absolute;
+}
         
 .arrow span {
     display: block;
@@ -198,9 +197,11 @@ button{
     margin: -15px;
     animation: scroll1 2s infinite;
 }
+
 .arrow span:nth-child(2) {
     animation-delay: -.2s;
 }
+
 .arrow span:nth-child(3) {
     animation-delay: -.4s;
 }
@@ -218,8 +219,19 @@ button{
         transform: rotate(45deg) translate(-20px, -20px);
     }
 }
+
+#upstairs{
+  opacity: 0;
+}
+
+#basement{
+  opacity: 0;
+  height: 2000px;
+}
+
+
 .stairs-container{
-  padding-top: 20px;
+  padding-top: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -230,6 +242,47 @@ button{
   padding: 10px;
   width: 30%;
 }
+
+.scare2{
+  position: relative;
+  background-color: gray;
+}
+
+.scare2 img:nth-of-type(1){
+  animation-delay: 6s;
+}
+.scare2 img:nth-of-type(2){
+  animation-delay: 4s;
+}
+
+.scare2 img:nth-of-type(3){
+  animation-delay: 2s;
+}
+
+.scare2 img:nth-of-type(4){
+  animation-delay: 0s;
+}
+
+#flicker{
+  display: block;
+}
+
+/*Fading delay of each image */
+#flicker img:nth-of-type(1){
+  animation-delay: 6s;
+}
+#flicker img:nth-of-type(2){
+  animation-delay: 4s;
+}
+
+#flicker img:nth-of-type(3){
+  animation-delay: 2s;
+}
+
+#flicker img:nth-of-type(4){
+  animation-delay: 0s;
+}
+
 .foot{
 
   border-width: 5px;
