@@ -117,17 +117,41 @@ button{
 
 
 .ghost{
-  /* animation: animateOne 2s; */
-  animation-duration: 5s;
-  animation-iteration-count: 3s;
-  animation-name: boo;
-  animation-direction: alternate;
+  position: relative;
+  left: 25%;
+  top: 25%;
+  background-color: gray;
+  background-color: black;
 }
 
+.l{
+  position: absolute;
+  /* left: 0px; */
+  animation-name: boo;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+
+.ghost img:nth-of-type(1){
+  animation-delay: 6s;
+}
+
+.ghost img:nth-of-type(2){
+  animation-delay: 4s;
+}
+
+.ghost img:nth-of-type(3){
+  animation-delay: 2s;
+}
+
+.ghost img:nth-of-type(4){
+  animation-delay: 0s;
+}
 @keyframes boo {
-  0%   {background-image: image('images/scene4.jpg');}
-  25%  {background-image: image('images/scene4.1.jpg');}
-  50%  {background-image: image('images/scene4.2.jpg');}
-  75%  {background-image: image('images/scene4.3.jpg');}
-  100% {background-image: image('images/scene4.4.jpg');}
+  0%   {opacity: 1;}
+  17%  {opacity: 1;}
+  25%  {opacity: 0;}
+  92%  {opacity: 0;}
+  100% {opacity: 1;}
 }
