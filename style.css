@@ -230,3 +230,24 @@ button{
   padding: 10px;
   width: 30%;
 }
+.foot{
+
+  border-width: 5px;
+  color: black;
+  border-radius: 10px;
+  border-style: dashed;
+  height: 200px;
+   background-image: linear-gradient(CadetBlue, grey);
+
+}
+
+h2{
+  font-family: 'Bradley Hand', cursive, bold;
+  font-size: 30px;
+
+}
+p{
+font-family: 'Bradley Hand', cursive;
+  font-size: 20px;
+
+}
