@@ -124,14 +124,18 @@ button{
   background-color: black;
 }
 
-.l{
+.layer{
   position: absolute;
-  /* left: 0px; */
-  animation-name: boo;
+}
+
+.layer.boo{
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-duration: 8s;
+  animation-name: animate;
 }
+
+/*Fading delay of each image */
 
 .ghost img:nth-of-type(1){
   animation-delay: 6s;
@@ -154,4 +158,8 @@ button{
   25%  {opacity: 0;}
   92%  {opacity: 0;}
   100% {opacity: 1;}
+}
+
+.lightsout{
+  background-color: grey;
 }
