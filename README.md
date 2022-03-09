@@ -40,4 +40,10 @@ In addtion, to add ineractivity to the page we decided to use two buttons, so th
 
 ## Reflection/Evaluation: This should bookend the initial concept and talk about whether your expectations and goals were met in the process of building the final working version.
 
+- Our major goal was to show interactivity using two different endings, one in which the ghost and the character become somewhat friends and another where the ghost accidentally frightens the character to death. And this is a goal we accomplished. 
+- Instead of simply showing panels in relation to objects moving, we also wanted to show an animation of the object or panels, and we accomplished this as well.
+- Moreover, using a black and white color scheme helped to portray the concept of a horror, and keep the viewer in potential suspense. However, the contents of the panels themselves, such as what the character says helps to add to the humour
+- Overall we would say that we accomplished our goals of creating a horror based comic webstrip
+
+
 
