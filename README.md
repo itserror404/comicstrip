@@ -34,7 +34,7 @@ Using Maimuna's template, I then began to add the panels of the comic.
 #### Rhea
 We wanted to include an animation of the ghost moving a fork within the kitchen, and so I had to figure out how to add that animation using the images that were to be included. It took a while and a bit of trial and error, but I finally figured it out, using keystrokes as well as JavaScript to have the animation begin when the viewer scrolls to that section of the page. 
 
-In addtion, to add ineractivity to the page we decided to use two buttons, so that the viewer could decide if they wanted to investigate or ignore the ghost. And so I worked on adding buttons to the website as well as ensuring that each button led to the respective "adventure" and there was no overlap between the two.  
+In addtion, to add ineractivity to the page we decided to use two buttons, so that the viewer could decide if they wanted to investigate or ignore the ghost. And so I worked on adding buttons to the website as well as ensuring that each button led to the respective "adventure" and there was no overlap between the two respective sections. To see the alternative the webpage has to be reloaded. I tried using hidden and show first, but that prevented the transitions from happening. Opacity allowed the transitions to happen. 
 
 
 
