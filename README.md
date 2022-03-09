@@ -18,6 +18,8 @@ We began by meeting together and coming up with potential ideas. We consulted pr
 
 ### Comic
 #### Moyo
+I used the concepts from Understanding Comics to create a wireframe for our comic. I turned the outline of the story discussed by the group ino individual scenes, and sourced background images for each scene. I added characters and dialogues to each scene. I had to edit the story outline by adding and removinf scene so the story could be more cohesive. I arranged the scenes sequentially, and added notes about animations and sound effects that had to be added. I also sepcfied the order of the decision scenes and how they should pan out. I then sent the wireframe to Bhavicka.
+
 #### Bhavicka
 Using the wireframe Moyo had given as a guideline, I started off with editing and choosing from the background options I had been given. Finding the right app for this style of drawing was the hardest part- I cycled through many like Illustrator, Vectornator, Adobe Fresco and even my Notes app. Finally, I found that a combination of Canva on my laptop and Ibis Paint X on the iPad worked well for my purpose. 
 
