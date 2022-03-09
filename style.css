@@ -147,7 +147,7 @@ button{
 
 .layer.boo{
   animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   animation-duration: 8s;
   animation-name: animate;
 }
