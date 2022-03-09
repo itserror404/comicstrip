@@ -14,7 +14,7 @@ html body{
   margin: 0;
 }
 
-/* header paralax image image*/
+/* header parallax image image*/
 header {
   background: url('images/bg.jpg');
   text-align: center;
@@ -45,7 +45,6 @@ h1 {
   font-family: 'Creepster', cursive;
   text-align: center;
   margin: 0;
-s
   width: 100%;
   height: 300px;
   opacity: 1;
@@ -80,6 +79,7 @@ section{
   overflow: hidden;
 }
 
+/* Moving utensils background */
 .scare
 {
  background: url(images/bg5.png);
@@ -136,6 +136,7 @@ button{
   top: 25%;
 }
 
+/* Layers for each animation */
 .layer{
   position: absolute;
   position: absolute;
@@ -183,8 +184,7 @@ button{
   background-size: 2000px 1000px;
 }
 
-
-
+/* Arrow to indicate the viewer should scroll down */
 .arrow {
   top: 50%;
   left: 50%;
@@ -289,7 +289,6 @@ button{
 }
 
 .foot{
-
   border-width: 5px;
   color: black;
   border-radius: 10px;
