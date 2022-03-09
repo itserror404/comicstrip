@@ -9,10 +9,10 @@ $('#up').click(function(){
 
     $basement.hide();
     $upstairs.css("opacity", 1);
-    // AOS.init();
-    // window.addEventListener('load', function() {
-    //   AOS.refresh();
-    // });
+    AOS.init();
+    window.addEventListener('load', function() {
+      AOS.refresh();
+    });
 });
 
 
@@ -33,6 +33,7 @@ var $window = $(window);
 var $elem = $(".ghost");
 var $flicker = $("#flicker");
 var $scare2 = $(".scare2");
+
 //Check if scroll has arrived at ghost section
 function isScrolledIntoView($elem, $window) {
     var docViewTop = $window.scrollTop();
