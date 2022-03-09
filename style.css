@@ -254,16 +254,17 @@ button{
 }
 
 .scare2 img:nth-of-type(1){
-  animation-delay: 6s;
-}
-.scare2 img:nth-of-type(2){
   animation-delay: 4s;
 }
-
-.scare2 img:nth-of-type(3){
+.scare2 img:nth-of-type(2){
   animation-delay: 2s;
 }
 
+.scare2 img:nth-of-type(3){
+  animation-delay: 0s;
+}
+
+/* Transparent image to create set of four to use animation */
 .scare2 img:nth-of-type(4){
   animation-delay: 0s;
 }
@@ -284,7 +285,8 @@ button{
   animation-delay: 2s;
 }
 
-#flicker img:nth-of-type(4){
+
+#flicker img:nth-of-type(4){ 
   animation-delay: 0s;
 }
 
