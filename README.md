@@ -46,5 +46,7 @@ In addtion, to add ineractivity to the page we decided to use two buttons, so th
 - Moreover, using a black and white color scheme helped to portray the concept of a horror, and keep the viewer in potential suspense. However, the contents of the panels themselves, such as what the character says helps to add to the humour
 - Overall we would say that we accomplished our goals of creating a horror based comic webstrip
 
-
+### Sources for Additional Guidance
+- Activate Animation on Scroll: https://stackoverflow.com/questions/30801588/start-animation-when-scrolled-to
+- Fading Animation: http://css3.bradshawenterprises.com/cfimg/
 
