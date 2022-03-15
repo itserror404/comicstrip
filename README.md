@@ -28,8 +28,13 @@ I had to shorten some dialogue and rearrange some panels but the wireframe was a
 ### Website
 #### Maimuna
 Maimuna's explanation for the template;
+I created a basic backbone template. It included a paralax header and few dummy images that fade in from left and right alternatively. The dummy images where then replaced by the comic strips. I used the AOS Javascript library to create the effect and also changed the fade in time so that it took sometime to slowly fade in and create a smooth transition. 
 
-Using Maimuna's template, I then began to add the panels of the comic.
+I have also added the background objects moving animation by manipulating the values of keyframes between 0% and 100%. So, during a particular scene, it appears as if the objects are hovering around or moving to have a scary effect.
+
+To add on, I included the scroll down arrow animation. I used keyframes here as well, and the values were between 0, 50 and 100. It also included animation-delay to show the change of color (downward movement). I refered one tutorial on YouTube for this effect. It was pretty confusing intially especially creating the arrow (changing the angles to create the arrow \/ and the colors scheme). After some trial and error I was able to figure out what matches the comic the most. 
+
+I then added a small footer at the end with our names while being careful not to trigger it while scrolling the comic.
 
 #### Rhea
 We wanted to include an animation of the ghost moving a fork within the kitchen, and so I had to figure out how to add that animation using the images that were to be included. It took a while and a bit of trial and error, but I finally figured it out, using keystrokes as well as JavaScript to have the animation begin when the viewer scrolls to that section of the page. 
